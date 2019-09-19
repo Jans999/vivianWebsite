@@ -1,0 +1,40 @@
+.jumbotron {
+  background-image: url(../images/kneeResize.jpg);
+}
+
+h2:hover {
+  cursor: pointer;
+}
+
+.marker {
+  font-family: 'Permanent Marker', cursive;
+  color: #4d4b48;
+}
+
+.wavesImage {
+  max-height: 310px;
+  max-width: 580px;
+  margin: 0 auto;
+}
+
+.kidsImage {
+  max-height: 280px;
+  max-width: 520px;
+}
+
+
+@media (min-width: 992px) {
+  .mobileImage {
+    max-height: unset;
+    }
+
+    .kidsImage {
+      max-width: 50%;
+    }
+
+    .wavesImage {
+      max-height: unset;
+      max-width: 50%;
+    }
+  }
+}

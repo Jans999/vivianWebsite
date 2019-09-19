@@ -1,0 +1,192 @@
+/* --------------------
+ Header
+ ---------------------- */
+
+/* Social Media */
+
+.fa-instagram {
+  display: inline-block;
+  width: 0.2em;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+  /* font-size: 220px;
+  line-height: 250px; */
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  position: absolute;
+  top: 7px;
+  right: 20px;
+}
+
+@media (min-width: 567px) {
+  .fa-instagram {
+    top: -2.2em;
+    right: 1em;
+  }
+}
+
+.fa {
+  padding: 0.3em;
+  font-size: 20px;
+  width: 1.45em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  /* margin-right: 0.2em; */
+  /* margin-top: 0.8em; */
+}
+
+.fa:hover {
+  text-decoration: none;
+  color: unset;
+  opacity: 0.8;
+}
+
+/* Title */
+
+@media (min-width: 992px) {
+  .vivian {
+    font-size: 60px;
+    }
+  }
+}
+
+/* Navbar items */
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+/* Center navbar items on screens */
+
+/* @media (min-width: 1200px) {
+  .main-nav>.nav-item {
+    margin-right: 8rem;
+  }
+
+  .main-nav:first-child {
+    margin-left: 7rem;
+  }
+} */
+
+a:hover,
+a:focus {
+  opacity: 0.5;
+}
+
+/* --------------------
+ Footer
+ ---------------------- */
+
+ .valeria {
+   color: #727a82;
+   font-size: 0.6em;
+ }
+
+.valeria2 {
+  margin-top: -25px !important;
+}
+
+/* --------------------
+ Jumbotron
+ ---------------------- */
+
+ .jumbotron {
+   background-image: url(../images/floorResize.jpg);
+   /* background-image: linear-gradient(0deg, #fff, transparent 90%), url(../images/floor.jpg); */
+   background-size: cover;
+   min-height: 38vh;
+   background-repeat: no-repeat;
+   font-family: 'Gloria Hallelujah', cursive;
+   /* background-color: blue; */
+ }
+
+@media (min-width: 576px) {
+  .jumbotron {
+    min-height: 45vh;
+  }
+}
+
+@media (min-width: 768px) {
+  .jumbotron {
+    min-height: 540px;
+  }
+}
+
+@media (min-width: 992px) {
+  .jumbotron {
+   /* background-image: linear-gradient(0deg, #fff, transparent 90%), url(../images/floor.jpg); */
+   /* background-position: 0 -130px,; */
+   min-height: 700px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .jumbotron {
+    min-height: 900px;
+  }
+}
+
+.tag-text {
+  font-size: 2rem
+}
+
+@media (min-width: 576px) {
+ .tag-text {
+   font-size: 2.5rem;
+ }
+}
+
+@media (min-width: 768px) {
+ .tag-text {
+   font-size: 3.5rem;
+ }
+}
+
+/* @media (min-width: 992px) {
+ .tag-text {
+  background-position: 0 -130px,;
+  min-height: 700px;
+ }
+}
+
+@media (min-width: 1200px) {
+ .tag-text {
+   min-height: 900px;
+ }
+} */
+
+
+
+/* --------------------
+ Sticky Footer
+ ---------------------- */
+html, body {
+  min-height: 100vh;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+}
+
+footer {
+   margin-top: auto;
+   flex-shrink: 0;
+}
+
+/* Must be on content to work */
+/* Also makes content have corridors in mobile view */
+
+.content {
+   flex-grow: 1;
+   width: 90%;
+   margin: auto;
+}
+
+.kostas {
+  font-size: 0.8em;
+}

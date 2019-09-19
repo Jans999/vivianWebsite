@@ -1,0 +1,29 @@
+/* Headshot Sizes */
+
+/* @media (min-width: 576px) {
+  .headshot {
+  }
+}
+
+@media (min-width: 768px) {
+  .headshot {
+    width: 300px;
+    margin: auto;
+    }
+} */
+
+@media (min-width: 992px) {
+  .headshot {
+    width: 300px;
+    display: block;
+    margin: auto;
+    }
+  }
+}
+
+/* @media (min-width: 1200px) {
+  .headshot {
+
+    }
+  }
+} */

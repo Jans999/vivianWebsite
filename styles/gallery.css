@@ -1,0 +1,15 @@
+.jumbotron {
+  background-image: url(../images/hair.JPG);
+}
+
+img {
+  max-width: 400px;
+  vertical-align: unset;
+}
+
+@media (min-width: 768px) {
+  img {
+    max-width: unset;
+    }
+  }
+}

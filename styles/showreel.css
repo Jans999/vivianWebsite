@@ -1,0 +1,9 @@
+.jumbotron {
+  background-image: url(../images/flower_mouth.jpg);
+}
+
+@media (min-width: 992px) {
+.table {
+    max-width: 33.333333%;
+  }
+}
