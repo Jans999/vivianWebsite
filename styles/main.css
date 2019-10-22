@@ -2,6 +2,15 @@
  Header
  ---------------------- */
 
+ #vivianTitle {
+   color: black;
+ }
+
+ #vivianTitle:hover {
+   text-decoration: none;
+   opacity: 1;
+ }
+
 /* Social Media */
 
 .fa-instagram {
