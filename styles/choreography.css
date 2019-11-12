@@ -5,26 +5,35 @@
 
 /* Choreography sections */
 
-.bottom_photo {
-    width: 25%;
-}
+/* Displaying tightr choreography information for large screens */
 
-.choreography_container {
-    width: 65%;
-}
+@media (min-width: 1200px) { 
+    .bottom_photo {
+        width: 25%;
+    }
+    
+    .choreography_container {
+        width: 65%;
+    }
+    
+    .video_width {
+        width: 75%;
+    }
+    
+    .paragraph_text {
+        width: 75%;
+    }
+ }
 
-.video_width {
-    width: 75%;
-}
-
-.paragraph_text {
-    width: 75%;
-}
 
 /* Supported  */
 
 .row ul {
     list-style-type: none;
+}
+
+li {
+    padding: 0.3rem 0;
 }
 
 li a {
