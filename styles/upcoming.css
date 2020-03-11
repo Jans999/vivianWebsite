@@ -1,3 +1,23 @@
 .jumbotron {
   background-image: url(../images/floor_pose.jpg);
 }
+
+ul {
+  list-style-type: none;
+}
+
+.rounded_image {
+  border-radius: 2rem;
+}
+
+img:hover {
+  cursor: pointer;
+}
+.title:hover {
+  cursor: pointer;
+}
+
+.title {
+  top: 50%;
+  position: relative;
+}
