@@ -1,6 +1,5 @@
 .jumbotron {
-    background: black;
-    min-height: unset;
+  background-image: url(../images/opencall1.jpg);
   }
 
 ul {
