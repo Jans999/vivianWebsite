@@ -21,3 +21,7 @@ img:hover {
   top: 50%;
   position: relative;
 }
+
+.egomas-poster:hover {
+  cursor: auto;
+}
